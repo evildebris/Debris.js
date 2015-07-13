@@ -1,0 +1,190 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/debris.css"/>
+    <title>Document</title>
+    <script defer="defer" type="text/javascript" src="../js/iscroll.js"></script>
+    <script defer="defer" type="text/javascript" src="../js/debris_core.js"></script>
+</head>
+<body>
+    <div id="background">
+    <!--welcome page-->
+    <section id="welcome_section" style="background:rgba(236, 236, 236, 1);">
+
+        <article class="active">
+            <div class="center">
+                <p class="title">Info </p>
+                <p href="#scroll_section" data-target="section">&nbsp;&nbsp;&nbsp;Debris是一个基于html5的轻量级web app框架，使用第三方isscroll.js组件。目前实现组建列表.图片浏览.文字图标.按钮和弹窗等等</p>
+            </div>
+        </article>
+    </section>
+
+    <!--home list-->
+    <section id="main_section" data-animate-times = "once">
+        <header>
+	        <a class="left menu"></a>
+	        Debris
+        </header>
+        <article class="active" style="bottom: 0;">
+            <ul class="inset_table">
+                <li data-animate="top">
+                    <div class="pre_li">
+                        <a class="icon newspaper" href="#"></a>
+	                    <a class="content">
+		                    &nbsp;&nbsp;&nbsp;&nbsp;newest information about debris.js
+	                    </a>
+                    </div>
+                </li>
+	            <li data-animate="top">
+		            <div class="pre_li">
+			            <a class="icon earth" href="#scroll_section" data-target="section"></a>
+			            <a class="content" href="#scroll_section" data-target="section">
+				            &nbsp;&nbsp;&nbsp;&nbsp;watch the demo about the function
+			            </a>
+		            </div>
+	            </li>
+	            <li data-animate="top">
+		            <div class="pre_li">
+			            <a class="icon rocket" href="#"></a>
+			            <a class="content">
+				            &nbsp;&nbsp;&nbsp;&nbsp;introduce the how to use these functions
+			            </a>
+		            </div>
+	            </li>
+	            <li data-animate="top">
+		            <div class="pre_li">
+			            <a class="icon info" href="#info_section" data-target="section" data-section-animate="fadeIn"></a>
+			            <a class="content" href="#info_section" data-section-animate="fadeIn" data-target="section" style="margin-top: 10px;">
+				            &nbsp;&nbsp;&nbsp;&nbsp;about me
+			            </a>
+		            </div>
+	            </li>
+            </ul>
+        </article>
+    </section>
+
+    <!--debris.js info Page-->
+    <section id="info_section" class="info_section"  data-animate-times = "once">
+	    <article class="active">
+		    <div class="info_list">
+			    <div class="block1" data-animate="rotateX" >
+				    <header>
+					    <a class="left back" data-target="back"></a>
+					    Info
+				    </header>
+					<h1>debris.js</h1>
+				    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's a simple web app framework,support basic components and animation pages.&nbsp;I hope you will like it.</p>
+			    </div>
+			    <!--<div class="block1" style="height: 10%" data-animate="rotateX"></div>-->
+			    <div class="block2">
+				    <div class="one_block" style="width:34.3%" data-animate="rotateX">
+					    <h1><div class="name">Cai.Liao</div></h1>
+				    </div>
+				    <div class="no_block"></div>
+				    <div class="one_block" style="width: 65%" data-animate="rotateY">
+						<h1><div class="mail">debris1@163.com</div></h1>
+				    </div>
+			    </div>
+			    <div class="block2" style="height: 48.5%">
+				    <div class="two_blocks">
+					    <div data-animate="rotateY2">
+						    <div>
+						        <div class="blocks_column">code:<a href="#">github.XXX.com</a></div>
+						        <div class="blocks_column">web:<a href="#">github.XXX.com</a></div>
+							</div>
+					    </div>
+					    <div data-animate="rotateY2">
+
+					    </div>
+				    </div>
+				    <div class="no_block"></div>
+				    <div class="one_block" data-animate="rotateX">
+
+				    </div>
+			    </div>
+		    </div>
+	    </article>
+    </section>
+
+    <!--demo list Page-->
+    <section id="demo_section">
+	    <header>
+		    <a class="left back" data-target="back">back</a>
+		    scroll demo
+		    <a class="right" ></a>
+	    </header>
+	    <article class="active" scrollable="true" >
+		    <div id="table" >
+			    <ul class="list">
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+				    <li>test</li>
+			    </ul>
+		    </div>
+	    </article>
+	</section>
+
+     <!--scroll demo Page-->
+    <section id="scroll_section">
+        <header>
+            <a class="left back" data-target="back">back</a>
+            scroll demo
+            <a class="right" ></a>
+        </header>
+        <article class="active" scrollable="true" >
+            <div id="table" >
+                <ul class="list">
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                </ul>
+            </div>
+        </article>
+    </section>
+	</div>
+</body>
+</html>
+<script>
+	window.onload=function(){
+		D.init('#main_section');
+	};
+</script>
