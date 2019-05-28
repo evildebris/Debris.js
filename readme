@@ -6,6 +6,5 @@ debris.js是一个web app框架，该框架是一个轻量级app框架，可以�
 
 使用D.init('#main_section')启动初始页面，页面加载完成触发pageshow事件，用户通过监听pageshow事件处理页面初始化事件。
 
-项目未完成，还在建设。
 
 
